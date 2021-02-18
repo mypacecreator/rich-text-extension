@@ -13,7 +13,7 @@
  */
 
 add_action(
-	'enqueue_block_editor_assets',
+	'enqueue_block_assets',
 	function() {
 		$asset_file = include plugin_dir_path( __FILE__ ) . 'build/index.asset.php';
 		wp_enqueue_script(
